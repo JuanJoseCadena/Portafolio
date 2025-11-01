@@ -1,0 +1,183 @@
+{
+	"personal_info": {
+		"name": "Juan José Cadena Arroyo",
+		"title": "Software Engineer",
+		"description": "",
+		"languages": [
+			{
+				"name": "Spanish",
+				"level": "Native"
+			},
+			{
+				"name": "English",
+				"level": "Advanced (Certified C2 level)"
+			}
+		]
+	},
+	
+	"titles":{
+		"portfolio":"Portfolio",
+		"experience":"Working Experience",
+		"education":"Education",
+		"courses":"Additional Education",
+		"about_me":"About Me"
+	},
+	
+	"portfolio": [
+		{
+			"project_name": "Finance Calculator",
+			"project_logo": "calculadoraFinanzas",
+			"description": "Personal financial management platform with credit calculation, currency conversion, and charting generation features.",
+			"used_technologies": ["React","NodeJS","Express","PostgreSQL"],
+			"access_link": "https://calculadora-finanzas.vercel.app/"
+		}
+	],
+	
+	"experience": [
+		{
+			"position": "Web Platform Full-Stack Developer",
+			"company": "Independent",
+			"company_logo": "independent",
+			"company_link": "",
+			"dates": "Mar/2025 - Oct/2025",
+			"description": "Complete development of a personal financial management platform, with the following functions:",
+			"functions": [
+				"Store users’ data, allowing them to store their financial transactions.",
+				"Check balances based on users’ recent transactions.",
+				"Generate graphs about users’ cash flow.",
+				"Calculate fixed-rate loans, showing the individual value of each installment and the total amount due.",
+				"Store user generated credit quotes for later reference.",
+				"Convert between currencies according to current international market exchange rates."
+			]
+		},
+		{
+			"position": "Software Engineering Practicing",
+			"company": "CloudCity S.A.S.",
+			"company_logo": "cloudcity",
+			"company_link": "https://cloudcitycolombia.com/",
+			"dates": "Mar/2022 - Jul/2023",
+			"description": "Custom software development in a variety of fields, including:",
+			"functions": [
+				"E-Commerce websites used for the promotion and sales of products.",
+				"Enterprise resource management systems.",
+				"Systems with database and certificate generation features for educational institutions.",
+				"Business presentation websites for various types of organizations.",
+				"Enterprise finance management system with electronic invoicing features.",
+				"Automated data analytics portals made for nutrition studies."
+			]
+		},
+		{
+			"position": "Business module execution assistant",
+			"company": "Colsubsidio Caja de Compensación",
+			"company_logo": "colsubsidio",
+			"company_link": "https://www.colsubsidio.com/",
+			"dates": "Jan/2021 - Mar/2021",
+			"description": "Assistance in the development and execution of a private business software module."
+		},
+		{
+			"position": "Software Developer",
+			"company": "Independent",
+			"company_logo": "independent",
+			"company_link": "",
+			"dates": "Oct/2020 - Nov/2020",
+			"description": "Development of software capable of conducting raffles among a defined number of people."
+		}
+	],
+	
+	"education": [
+		{
+			"title": "Diploma in Engineering Project Management",
+			"entity": "Universidad Manuela Beltrán",
+			"entity_logo": "umb",
+			"entity_link": "https://umb.edu.co/",
+			"dates": "Mar/2024 - Sep/2024"
+		},
+		{
+			"title": "Software Engineering",
+			"entity": "Universidad Manuela Beltrán",
+			"entity_logo": "umb",
+			"entity_link": "https://umb.edu.co/",
+			"dates": "Mar/2019 - Nov/2023"
+		},
+		{
+			"title": "Academic Bachelor",
+			"entity": "Gimnasio Virtual San Francisco de Asís",
+			"entity_logo": "sanFrancisco",
+			"entity_link": "https://gimnasiovirtualsfa.edu.co/",
+			"dates": "Feb/2014 - Nov/2018"
+		}
+		
+	],
+	
+	"courses": [
+		{
+			"name": "HuggingFace AI Agents Course",
+			"entity": "HuggingFace",
+			"entity_logo": "huggingface",
+			"entity_link": "https://huggingface.co/",
+			"date": "2025"
+		},
+		{
+			"name": "Introduction to Large Language Models",
+			"entity": "Google",
+			"entity_logo": "google",
+			"entity_link": "https://crece.withgoogle.com/intl/es_co/certificates/",
+			"date": "2024"
+		},
+		{
+			"name": "Introduction to Blockchain: Industry Applications + ChatGPT",
+			"entity": "Udemy",
+			"entity_logo": "udemy",
+			"entity_link": "https://www.udemy.com/",
+			"date": "2023"
+		},
+		{
+			"name": "LPI Linux Essentials Certification: Complete Official Syllabus",
+			"entity": "Udemy",
+			"entity_logo": "udemy",
+			"entity_link": "https://www.udemy.com/",
+			"date": "2023"
+		},
+		{
+			"name": "NLP: Natural Language Processing with NLP and Python",
+			"entity": "Udemy",
+			"entity_logo": "udemy",
+			"entity_link": "https://www.udemy.com/",
+			"date": "2023"
+		},
+		{
+			"name": "UX: Master's Degree in Web Design and User Experience",
+			"entity": "Udemy",
+			"entity_logo": "udemy",
+			"entity_link": "https://www.udemy.com/",
+			"date": "2023"
+		},
+		{
+			"name": "Introductory Service Management Course",
+			"entity": "Udemy",
+			"entity_logo": "udemy",
+			"entity_link": "https://www.udemy.com/",
+			"date": "2023"
+		},
+		{
+			"name": "Project Course: Complete and from Scratch for Beginners",
+			"entity": "Udemy",
+			"entity_logo": "udemy",
+			"entity_link": "https://www.udemy.com/",
+			"date": "2023"
+		},
+		{
+			"name": "Technical Writing: How to Write Software Documentation",
+			"entity": "Udemy",
+			"entity_logo": "udemy",
+			"entity_link": "https://www.udemy.com/",
+			"date": "2023"
+		}
+		
+	],
+	
+	"inner_text": {
+		"used_technologies":"Used Technologies",
+		"visit":"Visit"
+	}
+}

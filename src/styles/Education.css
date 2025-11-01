@@ -1,0 +1,36 @@
+
+.study-img {
+	width:100%;
+	max-width:100px;
+}
+
+.course-img {
+	width:100%;
+	max-width:90px;
+	display: inline-block;
+	border-radius:10px;
+	margin-bottom:10px;
+}
+
+.container-carousel {
+	border: blue 3px solid;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+	background-color:black;
+	width:100%;
+	max-width:440px;
+	display:inline-block;
+}
+
+.carousel-slide {
+	height:100%;
+	min-height:210px;
+	margin-top:100px;
+}
+
+.carousel-text {
+	color: white !important;
+}
+
+.carousel-item {
+	transition:transform .6s ease-in-out !important;
+}

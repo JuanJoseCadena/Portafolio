@@ -1,0 +1,183 @@
+{
+	"personal_info": {
+		"name": "Juan José Cadena Arroyo",
+		"title": "Ingeniero de Software",
+		"description": "",
+		"languages": [
+			{
+				"name": "Español",
+				"level": "Nativo"
+			},
+			{
+				"name": "Inglés",
+				"level": "Avanzado (Nível C2 certificado)"
+			}
+		]
+	},
+	
+	"titles":{
+		"portfolio":"Portafolio",
+		"experience":"Experiencia Laboral",
+		"education":"Estudios",
+		"courses":"Formación Adicional",
+		"about_me":"Sobre Mi"
+	},
+	
+	"portfolio": [
+		{
+			"project_name": "Calculadora de Finanzas",
+			"project_logo": "calculadoraFinanzas",
+			"description": "Plataforma financiera de gestión personal con funciones de cálculo de créditos, conversión de divisas y generación de gráficos.",
+			"used_technologies": ["React","NodeJS","Express","PostgreSQL"],
+			"access_link": "https://calculadora-finanzas.vercel.app/"
+		}
+	],
+	
+	"experience": [
+		{
+			"position": "Full-Stack Developer de Plataformas Web",
+			"company": "Independiente",
+			"company_logo": "independent",
+			"company_link": "",
+			"dates": "Mar/2025 - Oct/2025",
+			"description": "Desarrollo completo de una plataforma de gestión financiera personal, con las funciones de:",
+			"functions": [
+				"Almacenar los datos de sus usuarios, permitiéndole a los mismos almacenar sus movimientos financieros.",
+				"Consultar sus balances según sus movimientos recientes.",
+				"Generar gráficos acerca de su flujo de efectivo.",
+				"Calcular créditos a cuota fija, mostrando el valor individual de cada cuota y el total a pagar.",
+				"Almacenar las cotizaciones de los créditos para consultarlos más tarde.",
+				"Convertir entre divisas según las tasas de cambio actuales del mercado internacional."
+			]
+		},
+		{
+			"position": "Practicante de Ingeniería de Software",
+			"company": "CloudCity S.A.S.",
+			"company_logo": "cloudcity",
+			"company_link": "https://cloudcitycolombia.com/",
+			"dates": "Mar/2022 - Jul/2023",
+			"description": "Desarrollo de software a medida de diversos ámbitos, dentro de lo que se incluyen:",
+			"functions": [
+				"Páginas web utilizadas para promoción y venta de productos por medio de E-Commerce.",
+				"Sistemas de gestión de recursos empresariales.",
+				"Sistemas con funciones de bases de datos y generación de certificados para instituciones educativas.",
+				"Páginas web de presentación empresarial de diversos tipos de organizaciones.",
+				"Sistema de gestión de finanzas empresariales con funciones de  facturación electrónica.",
+				"Portales automatizados de analítica de datos de nutrición."
+			]
+		},
+		{
+			"position": "Ayudante ejecución módulo empresarial",
+			"company": "Colsubsidio Caja de Compensación",
+			"company_logo": "colsubsidio",
+			"company_link": "https://www.colsubsidio.com/",
+			"dates": "Ene/2021 - Mar/2021",
+			"description": "Ayudantía en el desarrollo y ejecución de un módulo empresarial privado."
+		},
+		{
+			"position": "Desarrollador de Software",
+			"company": "Independiente",
+			"company_logo": "independent",
+			"company_link": "",
+			"dates": "Oct/2020 - Nov/2020",
+			"description": "Desarrollo de un software con la capacidad de realizar sorteos entre un número definido de personas."
+		}
+	],
+	
+	"education": [
+		{
+			"title": "Diplomado en Gestión de Proyectos de Ingeniería",
+			"entity": "Universidad Manuela Beltrán",
+			"entity_logo": "umb",
+			"entity_link": "https://umb.edu.co/",
+			"dates": "Mar/2024 - Sep/2024"
+		},
+		{
+			"title": "Ingeniería de Software",
+			"entity": "Universidad Manuela Beltrán",
+			"entity_logo": "umb",
+			"entity_link": "https://umb.edu.co/",
+			"dates": "Mar/2019 - Nov/2023"
+		},
+		{
+			"title": "Bachillerato Académico",
+			"entity": "Gimnasio Virtual San Francisco de Asís",
+			"entity_logo": "sanFrancisco",
+			"entity_link": "https://gimnasiovirtualsfa.edu.co/",
+			"dates": "Feb/2014 - Nov/2018"
+		}
+		
+	],
+	
+	"courses": [
+		{
+			"name": "Curso de HuggingFace de Agentes de IA",
+			"entity": "HuggingFace",
+			"entity_logo": "huggingface",
+			"entity_link": "https://huggingface.co/",
+			"date": "2025"
+		},
+		{
+			"name": "Curso de Introducción a los Modelos de Lenguaje Grandes",
+			"entity": "Google",
+			"entity_logo": "google",
+			"entity_link": "https://crece.withgoogle.com/intl/es_co/certificates/",
+			"date": "2024"
+		},
+		{
+			"name": "Introduction to Blockchain: Industry Applications + ChatGPT",
+			"entity": "Udemy",
+			"entity_logo": "udemy",
+			"entity_link": "https://www.udemy.com/",
+			"date": "2023"
+		},
+		{
+			"name": "Certificación LPI Linux Essentials: Temario Oficial Completo",
+			"entity": "Udemy",
+			"entity_logo": "udemy",
+			"entity_link": "https://www.udemy.com/",
+			"date": "2023"
+		},
+		{
+			"name": "NLP: Procesamiento del Lenguaje Natural con NLP y Python",
+			"entity": "Udemy",
+			"entity_logo": "udemy",
+			"entity_link": "https://www.udemy.com/",
+			"date": "2023"
+		},
+		{
+			"name": "UX: Máster en diseño web y Experiencia de Usuario",
+			"entity": "Udemy",
+			"entity_logo": "udemy",
+			"entity_link": "https://www.udemy.com/",
+			"date": "2023"
+		},
+		{
+			"name": "Curso de introducción a la Gestión de Servicios",
+			"entity": "Udemy",
+			"entity_logo": "udemy",
+			"entity_link": "https://www.udemy.com/",
+			"date": "2023"
+		},
+		{
+			"name": "Curso de Project: Completo y Desde Cero para Principiantes",
+			"entity": "Udemy",
+			"entity_logo": "udemy",
+			"entity_link": "https://www.udemy.com/",
+			"date": "2023"
+		},
+		{
+			"name": "Technical Writing: How to Write Software Documentation",
+			"entity": "Udemy",
+			"entity_logo": "udemy",
+			"entity_link": "https://www.udemy.com/",
+			"date": "2023"
+		}
+		
+	],
+	
+	"inner_text": {
+		"used_technologies":"Tecnologías Usadas",
+		"visit":"Visitar"
+	}
+}

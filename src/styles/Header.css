@@ -1,0 +1,35 @@
+.App-header {
+  position: sticky;
+  top:0;
+  z-index: 99;
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.header-logo {
+  width: 100%;
+  max-width: 100px;
+}
+
+.translate-icon {
+	margin-top: 2px;
+	margin-right: 5px;
+}
+
+.translate-select {
+	width:100%;
+	max-width:50px;
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 22px;
+}
+
+.translate-select option {
+	color:black;
+	font-size:18px;
+}

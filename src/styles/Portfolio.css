@@ -1,0 +1,10 @@
+.portfolio-card-img{
+	width:100%;
+	max-width:200px;
+}
+
+.card-inner-img{
+	width:100%;
+	max-width:100px;
+	display: inline-block;
+}
