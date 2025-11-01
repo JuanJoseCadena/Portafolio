@@ -13,23 +13,50 @@
 .header-logo {
   width: 100%;
   max-width: 100px;
+  display:inline-block;
 }
 
 .translate-icon {
-	margin-top: 2px;
-	margin-right: 5px;
+	margin-bottom: 7px;
+	margin-right: 7px;
 }
 
 .translate-select {
 	width:100%;
-	max-width:50px;
+	max-width:fit-content;
 	background-color: transparent;
 	border: none;
 	color: white;
 	font-size: 22px;
 }
 
-.translate-select option {
+.translate-select:hover, .translate-select:active, .translate-select:focus, .translate-select.show{
+	background-color:transparent !important;
+	border-color:transparent !important;
+}
+
+.translate-option {
 	color:black;
 	font-size:18px;
+	padding-left:22px;
+	padding-right:30px;
+}
+
+.translate-option:hover{
+	text-decoration:none;
+}
+
+.translate-option:active, .translate-option:focus{
+	text-decoration:none;
+	background-color:#f8f9fa;
+	color:black;
+}
+
+.translate-flag {
+	margin-right:6px;
+	margin-bottom:2px;
+}
+
+.dropdown-menu.show {
+	min-width: fit-content;
 }

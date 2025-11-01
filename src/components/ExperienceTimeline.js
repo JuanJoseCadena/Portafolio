@@ -38,7 +38,7 @@ function ExperienceTimeline(){
 	});
 	
 	return(
-		<>
+		<div className="px-2">
 			<h1>{text.titles.experience}</h1>
 			<Chrono
 				items={items} 
@@ -55,7 +55,7 @@ function ExperienceTimeline(){
 					))}
 				</div>	
 			</Chrono>
-		</>
+		</div>
 	);
 }
 

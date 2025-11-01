@@ -8,9 +8,11 @@ export function useLanguage(){
 	const [ lang, setLang ] = useState("es");
 	
 	const changeLang = (newLang) => {
-		setLang(newLang);
-		localStorage.setItem("lang", newLang);
-		window.location.reload();
+		if(lang !== newLang){
+			setLang(newLang);
+			localStorage.setItem("lang", newLang);
+			window.location.reload();
+		}
 	};
 	
 	useEffect(() => {
