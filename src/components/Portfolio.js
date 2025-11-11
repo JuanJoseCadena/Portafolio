@@ -20,17 +20,15 @@ function Portfolio(){
 						<Card.Body>
 							<Card.Title>{project.project_name}</Card.Title>
 							<Card.Text>{project.description}</Card.Text>
-							<Card.Text>
-								<div className="row justify-content-center align-items-center">
-									<h5>{text.inner_text.used_technologies}</h5>
-									{project.used_technologies.map((technology) => (
-										<div className="col-6 justify-content-center align-items-center">
-											<img className="card-inner-img" src={assets[technology]} alt={technology} />
-											<p>{technology}</p>
-										</div>
-									))}
-								</div>
-							</Card.Text>
+							<div className="row justify-content-center align-items-center">
+								<h5>{text.inner_text.used_technologies}</h5>
+								{project.used_technologies.map((technology) => (
+									<div className="col-6 justify-content-center align-items-center">
+										<img className="card-inner-img" src={assets[technology]} alt={technology} />
+										<p>{technology}</p>
+									</div>
+								))}
+							</div>
 							<a href={project.access_link} target="_blank" rel="noopener noreferrer"><Button variant="primary">{text.inner_text.visit}</Button></a>
 						</Card.Body>
 					</Card>

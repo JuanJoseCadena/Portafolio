@@ -1,0 +1,27 @@
+.img-container {
+	width:100%;
+}
+
+.profile-photo {
+	display:inline-block;
+	width:100%;
+	max-width:180px;
+	border-radius:50%;
+	object-fit:cover;
+	border: 3px solid black;
+}
+
+.cv-button {
+	margin-top:10px;
+}
+
+.profile-icon {
+	color:grey;
+	font-size:30px;
+	margin-right:20px;
+}
+
+.profile-icon:hover{
+	font-size:36px;
+	color:blue;
+}

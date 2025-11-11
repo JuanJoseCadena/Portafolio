@@ -176,8 +176,54 @@
 		
 	],
 	
+	"icon_links": {
+		"linkedin":"https://co.linkedin.com/in/juan-josé-cadena-arroyo-981a41233",
+		"github":"https://github.com/JuanJoseCadena",
+		"whatsapp":"https://wa.me/573052667972",
+		"email":"mailto:juanjoca236@gmail.com"
+	},
+	
 	"inner_text": {
 		"used_technologies":"Tecnologías Usadas",
-		"visit":"Visitar"
+		"visit":"Visitar",
+		"get_cv":"Descargar CV"
+	},
+	
+	"timeline_text": {
+		"texts": {
+			"navigation": {
+				"first":"Ir al primero",
+				"last":"Ir al último",
+				"next":"Siguiente",
+				"previous":"Anterior",
+				"play":"Iniciar presentación",
+				"stop":"Detener presentación"
+			},
+			"search": {
+				"placeholder":"Buscar",
+				"ariaLabel":"Buscar contenido de la línea de tiempo",
+				"clearLabel":"Limpiar Búsqueda",
+				"nextMatch":"Siguiente coincidencia (Enter)",
+				"previousMatch":"Anterior coincidencia (Enter)",
+				"resultsCount":"",
+				"noResults":"Sin resultados"
+			},
+			"theme": {
+				"darkMode":"Cambiar a modo oscuro",
+				"lightMode":"Cambiar a modo claro",
+				"toggleTheme":"Cambiar tema"
+			},
+			"fullscreen": {
+				"enterFullscreen":"Iniciar pantalla completa",
+				"exitFullscreen":"Salir de pantalla completa",
+				"notSupported":"Pantalla completa no soportada"
+			},
+			"content": {
+				"readMore":"Leer Más",
+				"showLess":"Mostrar Menos",
+				"expand":"Expandir",
+				"collapse":"Colapsar"
+			}
+		}
 	}
 }

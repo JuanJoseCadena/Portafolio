@@ -8,7 +8,7 @@ import { useLanguage } from '../hooks/useLanguage.js';
 import { Chrono } from 'react-chrono';
 
 function ExperienceTimeline(){
-	const { text } = useLanguage();
+	const { text, lang } = useLanguage();
 	const items = [];
 	
 	text.experience.forEach((job) => {
@@ -47,7 +47,9 @@ function ExperienceTimeline(){
 				content={{readMore: true}}
 				interaction={{keyboardNavigation: false, cardHover: true}}
 				media={{height:120,align:'center',fit:'scale-down'}}
-				display={{toolbar: { enabled: false }}} >
+				display={{toolbar: { enabled: false }}} 
+				i18n={{texts: text.timeline_text.texts, locale: lang}} 
+				activeItemIndex={-1} >
 				
 				<div className="chrono-icons">
 					{text.experience.map((job) => (

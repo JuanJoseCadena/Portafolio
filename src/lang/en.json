@@ -176,8 +176,54 @@
 		
 	],
 	
+	"icon_links": {
+		"linkedin":"https://co.linkedin.com/in/juan-josé-cadena-arroyo-981a41233",
+		"github":"https://github.com/JuanJoseCadena",
+		"whatsapp":"https://wa.me/573052667972",
+		"email":"mailto:juanjoca236@gmail.com"
+	},
+	
 	"inner_text": {
 		"used_technologies":"Used Technologies",
-		"visit":"Visit"
+		"visit":"Visit",
+		"get_cv":"Download CV"
+	},
+	
+	"timeline_text": {
+		"texts": {
+			"navigation": {
+				"first":"Go to first item",
+				"last":"Go to last item",
+				"next":"Next item",
+				"previous":"Previous item",
+				"play":"Start slideshow",
+				"stop":"Stop slideshow"
+			},
+			"search": {
+				"placeholder":"Search Timeline",
+				"ariaLabel":"Search timeline content",
+				"clearLabel":"Clear Search",
+				"nextMatch":"Next Match (Enter)",
+				"previousMatch":"Previous Match (Enter)",
+				"resultsCount":"",
+				"noResults":"No results found"
+			},
+			"theme": {
+				"darkMode":"Switch to dark mode",
+				"lightMode":"Switch to light mode",
+				"toggleTheme":"Toggle theme"
+			},
+			"fullscreen": {
+				"enterFullscreen":"Enter fullscreen",
+				"exitFullscreen":"Exit fullscreen",
+				"notSupported":"Fullscreen not supported"
+			},
+			"content": {
+				"readMore":"Read More",
+				"showLess":"Show Less",
+				"expand":"Expand",
+				"collapse":"Collapse"
+			}
+		}
 	}
 }
