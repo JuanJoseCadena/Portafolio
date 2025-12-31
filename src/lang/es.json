@@ -30,6 +30,13 @@
 			"description": "Plataforma financiera de gestión personal con funciones de cálculo de créditos, conversión de divisas y generación de gráficos.",
 			"used_technologies": ["React","NodeJS","Express","PostgreSQL"],
 			"access_link": "https://calculadora-finanzas.vercel.app/"
+		},
+		{
+			"project_name": "GoldenTech",
+			"project_logo": "goldenTech",
+			"description": "Aplicación Android para fomentar el uso de la tecnología por parte de los adultos mayores, atendiendo sus necesidades específicas.",
+			"used_technologies": ["Java","Android","SQLite"],
+			"access_link":"https://github.com/JuanJoseCadena/GoldenTech/releases"
 		}
 	],
 	

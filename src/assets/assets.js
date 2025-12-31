@@ -6,11 +6,15 @@ import React from './react.png';
 import NodeJS from './nodeJS.png';
 import Express from './express.jpg';
 import PostgreSQL from './psql.png';
+import Java from './java.png';
+import SQLite from './sqlite.png';
+import Android from './android.png';
 import umb from './umb.png';
 import sanFrancisco from './sanFrancisco.png';
 import google from './google.png';
 import huggingface from './huggingface.png';
 import udemy from './udemy.png';
+import goldenTech from './goldenTech.png';
 
 export const assets = {
 	calculadoraFinanzas,
@@ -21,9 +25,13 @@ export const assets = {
 	NodeJS,
 	Express,
 	PostgreSQL,
+	Java,
+	SQLite,
+	Android,
 	umb,
 	sanFrancisco,
 	google,
 	huggingface,
-	udemy
+	udemy,
+	goldenTech
 }
