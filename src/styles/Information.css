@@ -19,9 +19,10 @@
 	color:grey;
 	font-size:30px;
 	margin-right:20px;
+	transition: color 0.3s ease, font-size 0.3s ease;
 }
 
 .profile-icon:hover{
-	font-size:36px;
 	color:blue;
+	font-size:36px;
 }

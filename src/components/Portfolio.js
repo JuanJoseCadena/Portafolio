@@ -9,27 +9,31 @@ import Card from 'react-bootstrap/Card';
 
 function Portfolio(){
 	const { text } = useLanguage();
-	
+
 	return(
-		<div className="row justify-content-center align-items-center">
+		<div className="row justify-content-center align-items-stretch py-5">
 			<h1>{text.titles.portfolio}</h1>
-			{text.portfolio.map((project) => (
-				<div className="col-sm-12 col-lg-4 px-4">
-					<Card className="justify-content-center align-items-center">
+			{text.portfolio.map((project, index) => (
+				<div key={index} className="col-sm-12 col-lg-4 px-4 d-flex">
+					<Card className="portfolio-card w-100">
 						<Card.Img className="portfolio-card-img" variant="top" src={assets[project.project_logo]} />
-						<Card.Body>
+						<Card.Body className="d-flex flex-column">
 							<Card.Title>{project.project_name}</Card.Title>
 							<Card.Text>{project.description}</Card.Text>
-							<div className="row justify-content-center align-items-center">
+							<div className="tech-badges mt-auto">
 								<h5>{text.inner_text.used_technologies}</h5>
-								{project.used_technologies.map((technology) => (
-									<div className="col-6 justify-content-center align-items-center">
-										<img className="card-inner-img" src={assets[technology]} alt={technology} />
-										<p>{technology}</p>
-									</div>
-								))}
+								<div className="d-flex flex-wrap justify-content-center">
+									{project.used_technologies.map((technology, idx) => (
+										<div key={idx} className="tech-badge">
+											<img src={assets[technology]} alt={technology} />
+											<span>{technology}</span>
+										</div>
+									))}
+								</div>
 							</div>
-							<a href={project.access_link} target="_blank" rel="noopener noreferrer"><Button variant="primary">{text.inner_text.visit}</Button></a>
+							<a href={project.access_link} target="_blank" rel="noopener noreferrer">
+								<Button variant="primary" className="mt-3">{text.inner_text.visit}</Button>
+							</a>
 						</Card.Body>
 					</Card>
 				</div>

@@ -16,6 +16,10 @@
 	border-radius:10px;
 }
 
+._1m81tp1f {
+	overscroll-behavior: inherit !important;
+}
+
 .timeline-point-logo {
 	border-radius:50%;
 	object-fit:cover;

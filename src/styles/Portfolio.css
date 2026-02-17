@@ -1,10 +1,84 @@
 .portfolio-card-img{
 	width:100%;
-	max-width:200px;
+	max-width:150px;
+	margin: 20px auto 10px;
+	display: block;
+	transition: transform 0.3s ease;
+}
+
+.card:hover .portfolio-card-img {
+	transform: scale(1.05);
+}
+
+.portfolio-card {
+	border: none;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease, transform 0.3s ease;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.portfolio-card:hover {
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+	transform: translateY(-5px);
+}
+
+.portfolio-card .card-body {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
 }
 
 .card-inner-img{
 	width:100%;
-	max-width:100px;
+	max-width:50px;
 	display: inline-block;
+}
+
+.tech-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	background-color: #f8f9fa;
+	border-radius: 20px;
+	padding: 6px 14px;
+	margin: 4px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #495057;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tech-badge:hover {
+	background-color: #007bff;
+	color: white;
+}
+
+.tech-badge img {
+	max-width: 20px;
+}
+
+.tech-badges {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.tech-badges h5 {
+	font-size: 14px;
+	color: #6c757d;
+	margin-bottom: 10px;
+}
+
+.card .btn-primary {
+	background-color: #007bff;
+	border: none;
+	padding: 10px 24px;
+	font-weight: 500;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card .btn-primary:hover {
+	background-color: #0056b3;
+	transform: scale(1.05);
 }

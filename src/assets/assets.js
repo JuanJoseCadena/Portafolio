@@ -1,7 +1,8 @@
 import colsubsidio from './colsubsidio.jpg';
 import cloudcity from './cloudcity.jpg';
+import supplyAsistencia from './supplyAsistencia.png';
 import independent from './independent.jpg';
-import calculadoraFinanzas from './calculadora-finanzas.svg';
+import calculadoraFinanzas from './calculadora-finanzas.png';
 import React from './react.png';
 import NodeJS from './nodeJS.png';
 import Express from './express.jpg';
@@ -20,6 +21,7 @@ export const assets = {
 	calculadoraFinanzas,
 	colsubsidio,
 	cloudcity,
+	supplyAsistencia,
 	independent,
 	React,
 	NodeJS,

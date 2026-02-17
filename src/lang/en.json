@@ -42,6 +42,21 @@
 	
 	"experience": [
 		{
+			"position": "Software Developer",
+			"company": "Supply Asistencia S.A.S.",
+			"company_logo": "supplyAsistencia",
+			"company_link": "https://supplyasistencia.com/",
+			"dates": "Nov/2025 - Dec/2025",
+			"description": "Development of various software development projects implementing artificial intelligence functions, including:",
+			"functions": [
+				"Development of APIs with connections to external data sources, for implementation with an artificial intelligence model.",
+				"Implementation and connection of functional chatbots with external data sources connections.",
+				"Configuration of artificial intelligence systems using Natural Language Processing (NLP) to provide information on agricultural topics.",
+				"Support in the development of a document management application.",
+				"Development and delivery of software documentation for projects completed during the employment period."
+			]
+		},
+		{
 			"position": "Web Platform Full-Stack Developer",
 			"company": "Independent",
 			"company_logo": "independent",

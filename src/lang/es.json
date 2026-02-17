@@ -42,6 +42,21 @@
 	
 	"experience": [
 		{
+			"position": "Desarrollador de Software",
+			"company": "Supply Asistencia S.A.S.",
+			"company_logo": "supplyAsistencia",
+			"company_link": "https://supplyasistencia.com/",
+			"dates": "Nov/2025 - Dic/2025",
+			"description": "Desarrollo de diversos proyectos de desarrollo de software implementando funciones de inteligencia artificial, entre los que se destacan:",
+			"functions": [
+				"Desarrollo de APIs con conexiones a fuentes de datos externas, para su implementación con un modelo de inteligencia artificial.",
+				"Implementación y conexión de chatbots funcionales con fuentes de datos externas.",
+				"Configuración de sistemas de inteligencia artificial con Procesamiento de Lenguaje Natural (NLP) para brindar información de temas agrícolas.",
+				"Labores de soporte en el desarrollo de una aplicación de gestión de documentos.",
+				"Desarrollo y entrega de documentación de software para los proyectos desarrollados durante el periodo laboral"
+			]
+		},
+		{
 			"position": "Full-Stack Developer de Plataformas Web",
 			"company": "Independiente",
 			"company_logo": "independent",
